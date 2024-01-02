@@ -1,9 +1,7 @@
 import mongoose from "mongoose";
 
-import Env from "./Env";
-
 const Db = (listen: Function) => {
-    const { DATABASE_URI } = Env;
+    const DATABASE_URI = "mongodb+srv://yodsavee14:mdZjYmrHpaKLlXzB@notesproject.qekrldf.mongodb.net/mern-stack-notesproject?retryWrites=true&w=majority";
     mongoose
         .connect(DATABASE_URI)
         .then(() => {
