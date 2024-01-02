@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PhatYSD/MERN-Stack-NotesProject.git"
+    "url": "https://github.com/PhatYSD/mern-stack-notes-api.git"
   },
   "scripts": {
     "start": "node ./dist/index.js",
