@@ -1,0 +1,57 @@
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore logs and other generated files
+logs/
+*.log
+*.log.*
+
+# Ignore environment variables file
+.env
+
+# Ignore TypeScript build cache
+*.tsbuildinfo
+
+# Ignore Visual Studio Code settings folder
+.vscode/
+
+# Ignore package-lock files
+package-lock.json
+yarn.lock
+
+# Ignore Mac OS system files
+.DS_Store
+
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore local configuration files
+config/local.js
+config/local.json
+
+# Ignore compiled Python files
+__pycache__/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore build artifacts for npm, yarn, and pnpm
+npm-debug.log*
+yarn-error.log*
+pnp-debug.log*
+
+# Ignore test coverage reports
+coverage/
+
+# Ignore .env.local files
+.env.local
+
+# Ignore .idea folder for JetBrains IDEs
+.idea/
+
+# Ignore compiled WebAssembly modules
+*.wasm
